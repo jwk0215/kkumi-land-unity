@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camera : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
     [SerializeField] private Transform __target;        // 카메라가 주시할 타겟
     [SerializeField] private Transform __camera;        // 카메라
